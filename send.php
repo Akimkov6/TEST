@@ -13,9 +13,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-if (isset($_POST['Message'],$_POST['Password'])) {
-	$message = $_POST['Message'];
-	$password = $_POST['Password'];
+if (isset($_POST['message'],$_POST['password'])) {
+	$message = $_POST['message'];
+	$password = $_POST['password'];
 	}
 
 $db_host = "localhost";
