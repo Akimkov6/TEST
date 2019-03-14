@@ -11,13 +11,11 @@
 <h3> На нашем сервере Вы можете делиться важной информацией с теми с кем захотите Вы! <h3> <hr>
 <form action="send.php" method="post">
 	<p><textarea name="comment"placeholder= "Введите Ваше сообщение"></textarea></p>
-	<p><input type="text" placeholder= "Введите Ваш пароль"> </p>
+	<p><input type="password" MAXLENGTH=6 placeholder= "Введите Ваш пароль"> </p>
 		<div> <input type="submit" value= "ЗАШИФРОВАТЬ ПОСЛАНИЕ"> </div>
-		
-				
+								
 				</form>
 <?php
-
 $chars="qazxswedcvfrtgbnhyujmkiolp1234567890QAZXSWEDCVFRTGBNHYUJMKIOLP"; 
 $max=6; 
 $size=StrLen($chars)-1; 
