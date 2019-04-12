@@ -1,9 +1,0 @@
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_URI} !^/index.php
-RewriteCond %{REQUEST_URI} !^/send.php
-RewriteRule .* check.php
-
-
-
-

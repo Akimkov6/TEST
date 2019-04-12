@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block {
+			background-color: #6c6b92;
+			width: 45%;
+			height: 500px;
+			margin: 10px;
+			float: left;
+			border: 2px solid #e3dcff;
+			border-radius: 45px;
+			text-align: left;
+			padding: 20px;
+        }
+        .container {
+            width: 98%;
+            margin: 0 auto;
+			text-align: center;
+			font-weight: bold;
+			font-size:30px;
+        }
+		P {
+			font-weight: bold}
+		body{
+ 		 	 background-color:#3d3c6c;
+		  	color: #c0bcc4;
+			}	
+		td{
+			padding: 10px;
+		}
+		.knopka_left{
+			width: 15px;
+			clear:both; 
+			position: absolute;
+   			bottom: 15px;
+			left: 40%;
+		}
+		.left {
+			position: relative;
+
+		}
+		.del{
+			float:right;
+			color: red;
+			cursor: pointer;
+			font-size:20px
+
+		}
+		.del:hover, li:hover span{
+			opacity: 0.5;
+		}
+		li{
+			margin-bottom: 15px;
+			cursor: pointer;
+		}
+		
+    </style>
+</head>
+<body>
+<div class="container">
+
+	<p >Сервис по обмену сообщениями</p>
+    <div class="left block" >
+		<div align="center"> 
+			Мои сообщения
+		</div>
+		<ol>
+			<li>
+				<div> <span>первый</span>
+					<div class="del">
+						х
+					</div>
+				</div> 
+			</li>
+			<li>
+				<div> <span>второй</span>
+					<div class="del">
+							х
+					</div>
+				</div>
+			</li>
+			<li>
+				<div> <span>третий</span>
+						<div class="del">
+								х
+						</div>
+				</div>
+			</li>
+		</ol>
+		<div class="knopka_left" >	
+			<input  type=submit value="Добавить сообщение">
+		</div>
+	</div>
+    <div class="right block" >
+		<div align="center"> 
+			Сообщения для меня
+		</div>
+		<ol>
+			<li>
+				<div> <span>первый</span>
+					<div class="del">
+						х
+					</div>
+				</div> 
+			</li>
+			<li>
+				<div> <span>второй</span>
+					<div class="del">
+							х
+					</div>
+				</div>
+			</li>
+			<li>
+				<div> <span>третий</span>
+						<div class="del">
+								х
+						</div>
+				</div>
+			</li>
+		</ol>
+	</div>
+</div>
+
+
+</body>
+</html>
