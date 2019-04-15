@@ -1,0 +1,7 @@
+# Ignore files and folders
+/bitrix/*
+/upload/*
+
+.DS_Store
+.htaccess
+.htsecure
